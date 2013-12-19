@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.wordpress.linuxramayana"
+        versionCode="1" 
+        version   = "1.0.0">
+
+    <name>Info Linux Ramayana</name>
+
+    <description>
+        Dapatkan info seputar Linux Ramayana di hpmu 
+    </description>
+
+    <author href="http://github.com/anugrahbsoe" email="newbieilmu.com">
+       AnugrahBSoe
+    </author>
+
+    <preference name="phonegap-version" value="2.9.0" />
+
+    <icon src="icons/ramayana-android.png" />
+
+    <!--<gap:plugin name="ChildBrowser" />-->
+	<gap:plugin name="com.phonegap.plugins.childbrowser" />
+
+</widget>
